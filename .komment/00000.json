@@ -4,16 +4,16 @@
     "path": "test.js",
     "content": {
       "structured": {
-        "description": "A constant function named `fn` that takes no arguments and returns no value. The function uses the `console.log` method from the browser's developer tools API to print the string representation of the number 0 to the console. The code does not have any dependencies on external libraries or packages, it is self-contained.",
+        "description": "An immediately invoked function expression (IIFE) named `fn`. The IIFE is a self-contained block of code that executes immediately when it's defined, without being called explicitly. It uses the `console.log` method from the browser's JavaScript console to output the string representation of the integer value 0.",
         "items": [
           {
-            "id": "253b4768-198c-4abe-5946-a977d145ad36",
+            "id": "84688c04-1049-8e8d-9f48-e069ee4eea75",
             "ancestors": [],
-            "description": "Logs the value \"0\" to the console when called. It is a constant function, denoted by the keyword `const`, which implies it cannot be reassigned. The arrow function syntax defines a concise way to declare a function that returns no value.",
+            "description": "Defines a constant function that logs the value `0` to the console when invoked, without any arguments or return values. It does not change state or depend on external inputs, making it a pure function with a single, predictable output.",
             "params": [],
             "usage": {
               "language": "javascript",
-              "code": "fn();\n",
+              "code": "fn(); // Output: 0",
               "description": ""
             },
             "name": "fn",
