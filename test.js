@@ -1,7 +1,7 @@
 /**
- * @description Defines a constant function that logs the value `0` to the console
- * when invoked, without any arguments or return values. It does not change state or
- * depend on external inputs, making it a pure function with a single, predictable output.
+ * @description Logs the value "0" to the console when invoked. It is a constant
+ * function that always returns the same output, as indicated by its name and lack
+ * of any input parameters or logic to affect the output.
  */
 const fn = () => {
   console.log(0);
