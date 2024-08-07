@@ -1,0 +1,35 @@
+[
+  {
+    "name": "test.js",
+    "path": "test.js",
+    "content": {
+      "structured": {
+        "description": "A constant function `fn` that returns undefined. The function logs the value 0 to the console using the `console.log` method from the browser's developer tools API. When invoked, the function will output \"0\" to the console without modifying any external state or returning a result.",
+        "items": [
+          {
+            "id": "95b8633a-c0df-4bad-cf46-5a665c60135e",
+            "ancestors": [],
+            "description": "Defines a constant arrow function that logs \"0\" to the console when called. The function does not take any arguments and immediately prints the value \"0\" using `console.log`.",
+            "params": [],
+            "usage": {
+              "language": "javascript",
+              "code": "fn();\n",
+              "description": ""
+            },
+            "name": "fn",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 4,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
