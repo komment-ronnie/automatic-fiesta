@@ -4,17 +4,17 @@
     "path": "test.js",
     "content": {
       "structured": {
-        "description": "A constant function named \"fn\" that returns no value and logs the number 0 to the console using the console.log() method from the browser's built-in console API. The fn is a function expression defined as an arrow function.",
+        "description": "An anonymous immediate function expression that executes once when encountered. The function logs a message \"0\" to the console using the `console.log` method provided by the Node.js platform.",
         "items": [
           {
-            "id": "53cc7aad-dded-0399-7047-482fdea1c89f",
+            "id": "7404c36d-0f62-caba-5749-1627a0991704",
             "ancestors": [],
-            "description": "Defines a constant arrow function that logs \"0\" to the console when invoked. The function does not accept any arguments and simply outputs the value 0 when called.",
+            "description": "Declares a constant arrow function that logs \"0\" to the console when called.",
             "params": [],
             "usage": {
               "language": "javascript",
               "code": "fn();\n",
-              "description": ""
+              "description": "\nThis simple call executes the function and logs '0' to the console."
             },
             "name": "fn",
             "location": {
