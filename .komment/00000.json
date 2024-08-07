@@ -1,0 +1,35 @@
+[
+  {
+    "name": "test.js",
+    "path": "test.js",
+    "content": {
+      "structured": {
+        "description": "A constant function named `fn` that is declared using an arrow function syntax. The function executes by logging the integer value 0 to the console using the `console.log()` method. The result of this operation is the output of the value 0 in the console.",
+        "items": [
+          {
+            "id": "2bb9a923-2ee4-8c93-364f-aad29cf5c45a",
+            "ancestors": [],
+            "description": "Logs a value of 0 to the console when invoked. It is a constant arrow function that does not take any arguments and immediately calls `console.log` with the argument 0.",
+            "params": [],
+            "usage": {
+              "language": "javascript",
+              "code": "fn(); // outputs: 0",
+              "description": ""
+            },
+            "name": "fn",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 4,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
