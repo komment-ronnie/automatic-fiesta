@@ -1,0 +1,35 @@
+[
+  {
+    "name": "test.js",
+    "path": "test.js",
+    "content": {
+      "structured": {
+        "description": "An anonymous immediate function expression that executes once when encountered. The function logs a message \"0\" to the console using the `console.log` method provided by the Node.js platform.",
+        "items": [
+          {
+            "id": "7404c36d-0f62-caba-5749-1627a0991704",
+            "ancestors": [],
+            "description": "Declares a constant arrow function that logs \"0\" to the console when called.",
+            "params": [],
+            "usage": {
+              "language": "javascript",
+              "code": "fn();\n",
+              "description": "\nThis simple call executes the function and logs '0' to the console."
+            },
+            "name": "fn",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 5,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
