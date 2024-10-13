@@ -7,7 +7,7 @@ function Person() {
   self.age = 0;
 
   setInterval(function growUp() {
-    // Calls every second.
+    // Calls setInterval.
     self.age++;
   }, 1000);
 }
@@ -24,19 +24,20 @@ const getCode = (function () {
 console.log(getCode());
 
 /**
- * @description Returns a function that can be used to retrieve the provided name.
- * This returned function, `getName`, is a closure that retains access to the `name`
- * variable even after the `pet` function has completed execution.
+ * @description Creates a closure that returns the `name` parameter when its `getName`
+ * function is called. The `name` is encapsulated within the closure, allowing it to
+ * maintain its value even after the outer function has returned.
  *
- * @param {string} name - Assigned to a variable used within the function.
+ * @param {string} name - Defined at the outer scope of the function, accessible
+ * within its inner scope.
  *
- * @returns {any} A function.
+ * @returns {any} A function that returns the original name passed to it.
  */
 const pet = function (name) {
   /**
    * @description Returns the value of the `name` variable.
    *
-   * @returns {string} The value of the variable `name`.
+   * @returns {string} Assumed to be a variable named `name`.
    */
   const getName = function () {
     return name;
